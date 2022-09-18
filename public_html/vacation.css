@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Sep-2022, 1:02:43 PM
+    Author     : kurtm
+*/
+@media all {
+
+		body {
+				background-color: black;
+				color: #454138;
+				font-family: 'helvetica', sans-serif;
+				font-weight: lighter;
+				height: 800px;
+				margin: auto;
+				width: 700px;
+				}
+
+		div {
+			background-color: #bab5a1;
+			border: 10px solid black;
+		}
+
+		h1 {
+			border-bottom: 10px double #454138;
+			font-weight: normal;
+    		letter-spacing: 0.5rem;
+    		text-align: center;
+		}
+
+		figcaption {
+			background-color: #454138;
+			float: none;
+			color:  #bab5a1;
+			font-size: 30px;
+			text-align: left;
+		}
+
+		img {
+			border: 5px double #454138;
+			display: block;
+			height: 200px;
+			margin-right: 20%;  /*Indent 20%*/
+			margin-top: 10px;
+			float: left; /*use float to position*/
+			width: 350px;
+		}
+
+		ol {
+			background-color: #dcd8c0;
+			letter-spacing: 0.10rem;
+			line-height: 1.5;
+			list-style-type: upper-roman;
+			margin: 0;
+			text-align: left;
+		}
+
+		h2 {
+			border: 10px outset #454138;
+			margin: 0;
+		}
+
+		li {
+			border-bottom: 2px solid;
+		}
+
+		p {
+			border-bottom: 5px solid #454138;
+		    color: #454138;
+		    font-weight: lighter;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			margin-left: 7%;
+			margin-right: 10%;
+			text-align: left;
+		}
+
+		a:link{
+			color: #454138;
+		}
+
+		a:visited
+		{
+			color: #blue;
+		}
+
+		a:hover {
+			background-color: #454138;
+			color: #dcd8c0;
+		}
+}
